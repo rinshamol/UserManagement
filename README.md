@@ -62,7 +62,7 @@ Git & GitHub
 
 ## 🚀 Getting Started
 1️⃣ Clone the Repository
-```git clone https://github.com/<your-username>/user-management-api-dotnet.git```
+```git clone https://github.com/rinshamol/UserManagement.git```
 cd user-management-api-dotnet
 
 2️⃣ Restore Dependencies
