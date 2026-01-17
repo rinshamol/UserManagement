@@ -1,9 +1,9 @@
-🧑‍💻 User Management API – ASP.NET Core Web API
+# 🧑‍💻 User Management API – ASP.NET Core Web API
 
 A RESTful User Management API built using ASP.NET Core Web API.
 This project demonstrates CRUD operations, validation, middleware usage, and API documentation using Swagger.
 
-📌 Features
+## 📌 Features
 
 Create, Read, Update, and Delete users (CRUD)
 
@@ -19,7 +19,7 @@ Clean, layered folder structure
 
 In-memory database (Entity Framework Core)
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ASP.NET Core Web API
 
@@ -31,8 +31,8 @@ C#
 
 Git & GitHub
 
-📂 Project Structure
-UserManagementApi/
+## 📂 Project Structure
+```UserManagementApi/
 │
 ├── Controllers/
 │   └── UsersController.cs
@@ -58,8 +58,9 @@ UserManagementApi/
 ├── Program.cs
 ├── appsettings.json
 └── UserManagementApi.sln
+```
 
-🚀 Getting Started
+## 🚀 Getting Started
 1️⃣ Clone the Repository
 ```git clone https://github.com/<your-username>/user-management-api-dotnet.git```
 cd user-management-api-dotnet
@@ -70,7 +71,7 @@ cd user-management-api-dotnet
 3️⃣ Run the Application
 ```dotnet run```
 
-📄 Swagger API Documentation
+## 📄 Swagger API Documentation
 
 After running the application, open Swagger UI:
 
@@ -84,14 +85,15 @@ Example:
 
 Swagger allows you to test all API endpoints easily.
 
-🔗 API Endpoints
+## 🔗 API Endpoints
 Method	Endpoint	Description
-GET	/api/users	Get all users
+```GET	/api/users	Get all users
 GET	/api/users/{id}	Get user by ID
 POST	/api/users	Create new user
 PUT	/api/users/{id}	Update existing user
 DELETE	/api/users/{id}	Delete user
-✅ Validation
+```
+## ✅ Validation
 
 Required fields are enforced
 
@@ -103,7 +105,7 @@ Duplicate email checks
 
 Automatic 400 Bad Request responses for invalid data
 
-🔐 Middleware Used
+## 🔐 Middleware Used
 
 Request Logging Middleware
 
@@ -115,7 +117,7 @@ Handles unhandled exceptions
 
 Returns consistent error responses
 
-🤖 GitHub Copilot Usage
+## 🤖 GitHub Copilot Usage
 
 GitHub Copilot was used during development to:
 
@@ -127,15 +129,15 @@ Optimize middleware implementation
 
 Speed up development
 
-📦 Version Control
+## 📦 Version Control
 
 GitHub repository created and maintained
 
-.gitignore configured to exclude bin/, obj/, and IDE files
+```.gitignore configured to exclude bin/, obj/, and IDE files ```
 
 Clean commit history
 
-📝 Notes
+## 📝 Notes
 
 This project uses In-Memory Database for simplicity
 
@@ -143,13 +145,13 @@ No external database setup is required
 
 Suitable for learning, assignments, and demonstrations
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Rinsha Mol K S
 Software Developer
 GitHub: https://github.com/
 <your-username>
 
-✅ License
+## ✅ License
 
 This project is for educational purposes.
